@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .primary-garadient {
+        @apply bg-gradient-to-br from-[#a3e08b] via-[#83db99] via-[#64d5a8] via-[#46ceb6] to-[#2dc5c1];
+    }
+}
